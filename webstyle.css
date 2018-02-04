@@ -1,0 +1,320 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+
+#container
+{
+	width:100%;
+	margin:10px auto;
+	background-color: #f1f1f1;
+	box-shadow: 2px 2px 2px 2px #606060;
+}
+
+#header
+{
+	font-family: 'Calligraffitti';
+	width:100%;
+	height: 200px;
+	background-color: black;
+}
+
+#header p{
+	position: absolute;
+	right: 5%;
+	top: 0;
+	font-family: 'Anaheim';
+	color: white;
+}
+
+#header a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+#header a:hover{
+	color: gold;
+}
+
+#opennav button{
+	border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap
+}
+
+
+#mySidebar nav{
+	display: inline-block;
+	font-family: 'Anaheim';
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: black;
+}
+#mySidebar nav a{
+	font-size: 30px;
+	display: block;
+	color: #f2f2f2;
+	text-align: left;
+	padding: 14px;
+	text-decoration: none;
+	transition: background-color 1s;
+}
+#mySidebar nav a:hover{
+	color: gold;
+	background-color: grey;
+}
+#adminnav nav{
+	display: inline;
+	text-decoration: none;
+}
+#adminnav nav ul li{
+	display: inline;
+	text-decoration: none;
+}
+
+#maincontent{
+	font-family: 'Calligraffitti';
+	width: 100%;
+}
+
+#maincontent h2{
+	text-align: center;
+}
+
+#maincontent p, #maincontent a{
+	font-family: 'Anaheim';
+	text-align: center;
+}
+
+#fullpost{
+	width: 50%;
+	min-width: 50%;
+	margin: 5% 25% 25% 25%;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 10px;
+}
+
+#fullpost img{
+	width: 100%;
+
+}
+
+#form{
+	display: inline;
+
+}
+
+#form form{
+	font-family: 'Anaheim';
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#newpost form{
+	font-family: 'Anaheim';
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 5%;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#commentsection form{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+}
+
+#commentblock{
+	font-family: 'Anaheim';
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+}
+
+#gallery{
+	display: inline-block;
+	width: 45%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 5%;
+	float: left;
+    text-align: justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#side{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 25%;
+	min-width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 5%;
+	margin-left: 20px;
+	margin-right: 5%;    
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myprofile{
+	font-family: 'Anaheim';
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 25%;
+	min-width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 5%;
+	margin-left: 20px;
+	margin-right: 5%;  
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myprofile img{
+	padding-left: 20%;
+	padding-right: 20%;
+	border-radius: 50%;
+	width: 60%;
+}
+
+#profile a{
+	text-decoration: none;
+	color: black;
+}
+
+#profile{
+	display: block;
+	font-family: 'Anaheim';
+	padding-bottom: 30px;
+
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#profile img{
+	border-radius: 50%;
+	float: left;
+	width: 100%;
+}
+
+#profile img:hover{
+	filter: grayscale(100%);
+	border: 1px solid black;
+}
+
+
+#image{
+	margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    max-width: 300px;
+    height: 400px;
+}
+
+#image img{
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+	transition: .2s;
+}
+
+#image:hover{
+	filter: grayscale(100%);
+	border: 1px solid black;
+}
+
+#image a{
+	text-decoration: none;
+	color: black;
+}
+
+#desc {
+	padding-top: 5%;
+	padding-bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#pageno{
+	clear:both;
+}
+
+#sort{
+	width: 80%;
+	margin-left:10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+#sort form{
+	margin: 10px auto;
+	display: inline-block;
+}
+
+#form input[type=text]:focus, #newpost input[type=text]:focus, #myprofile input[type=text]:focus{
+    border: 3px solid #555;
+}
+#form input[type=text], #form input[type=date], #form input[type=time], #newpost input[type=text], #myprofile  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+#form input[type=file], #newpost input[type=file], #myprofile input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#form input[type=submit], #newpost input[type=submit], #myprofile  input[type=submit]{
+	width: 100%;
+	margin: 8px 0;
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#form input[type=submit]:hover, #newpost input[type=submit]:hover, #myprofile input[type=submit]:hover{
+	background-color: black;
+}
+
+#searchbar form{
+	color: white;
+	position: relative;
+	text-align: right;
+	margin-right: 5%;
+	font-family: 'Anaheim';
+}
+
+#footer{
+	font-family: 'Anaheim';
+	clear: both;
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,1 @@
+<div id="footer">© 2017 Dwight Mopas Website Development Final Project</div>
